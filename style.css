@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  min-width: 100%;
+  min-height: 100vh;
+  background-image: url(./asset/background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(39, 39, 39);
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: auto;
+  max-width: 850px;
+  height: auto;
+  padding: 2rem 3rem;
+  border-radius: 0.5rem;
+  background-color: rgba(250, 250, 250, 0.3);
+  box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.quote-text {
+  font-size: 6rem;
+  line-height: 0.8;
+}
+
+.quote-text i {
+  font-size: 12rem;
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 5px 6px rgb(181, 181, 181);
+}
+
+.quote-author {
+  padding: 2rem;
+}
+
+.quote-author span {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+}
+
+#new-quote {
+  background-color: transparent;
+  padding: 2rem;
+  border: 3px solid #000;
+  border-radius: 50px;
+  outline: none;
+  cursor: pointer;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  transition: 0.2s all;
+}
+
+#new-quote:hover {
+  border: none;
+  color: #fff;
+  background-color: #000;
+}
